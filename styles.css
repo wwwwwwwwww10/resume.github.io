@@ -1,0 +1,74 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.container-fluid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+ 
+}
+.left{
+  display: flex;
+  flex-direction: column;
+    background-color: cadetblue;
+    color: aliceblue; 
+    padding: 10px 10px;
+   
+}
+
+.right{
+   padding: 10px 10px;
+   background-color: whitesmoke;
+   color: rgb(20, 76, 78);
+   
+}
+.contact ul{
+    list-style: none;
+    
+    
+}
+.contact li{
+    margin: 20px 0px;
+}
+a{
+    text-decoration: none; 
+    
+    
+}
+.contact a{
+   
+    color:  rgb(43, 99, 101);
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-color: aliceblue;
+    padding: 5px;
+}
+.contact li :hover{
+    background-color: rgb(66, 125, 128);
+    color: aliceblue;
+}
+.left p{
+    color: rgb(206, 237, 238);
+}
+.right p{
+    color: rgb(43, 99, 101);
+}
+.right a{
+    color: aliceblue;
+    background-color:rgb(43, 99, 101) ;
+    border-radius: 10px;
+    padding: 5px;
+}
+.linkp :hover{
+    color:rgb(43, 99, 101) ;
+    background-color: white;
+}
+@media (max-width:576px) {
+    .container-fluid{
+    display: grid;
+    grid-template-columns: 1fr ;
+   
+}
+    
+}
+
